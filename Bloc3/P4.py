@@ -4,7 +4,7 @@ Bloc 3, Pràctica 4
 Suma entre números
 """
 
-size = 50
+size = 10
 
 print("    ", end="")
 for i in range(1, size + 1):
