@@ -1,7 +1,7 @@
 """
 Nicolau Navarro Arroyo
-Bloc 3, Pràctica 4
-Suma entre números
+Bloc 3, Pràctica 5
+Divisores
 """
 
 number = int(input("Ingresa el numero: "))
