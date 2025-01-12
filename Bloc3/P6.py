@@ -11,10 +11,15 @@ while True:
         break
     total = total + new
 
-horas = 0
+hours = 0
 while total >= 60:
     total = total - 60
-    horas = horas + 1
+    hours = hours + 1
 
-print("El temps total del viatge es de: " + str(horas)  + ":" + str(total) + " hores.")
+if total < 10:
+    total = "0" + str(total)
+else:
+    total = str(total)
+
+print("Temps total del viatge: " + str(hours)  + ":" + str(total) + " hores.")
 

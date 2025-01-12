@@ -8,8 +8,8 @@ num = int(input("Ingresa numero: "))
 
 res = []
 for i in range(0, num + 1):
-    value = str(2 ** i) + " "
+    value = str(2 ** i)
     res.append(value)
 
-print("".join(res))
+print(" ".join(res))
 

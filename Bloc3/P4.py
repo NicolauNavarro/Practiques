@@ -1,7 +1,7 @@
 """
 Nicolau Navarro Arroyo
 Bloc 3, Pràctica 4
-Suma entre números
+Taula de multiplicar
 """
 
 size = 10
@@ -12,9 +12,9 @@ for i in range(1, size + 1):
 print()
 print("    " + "-" * (size * 5))
 
-for i in range(1, size + 1):
-    print(f"{i:2} |", end=" ")
-    for j in range(1, size + 1):
-        print(f"{i * j:4}", end=" ")
+for row in range(1, size + 1):
+    print(f"{row:2} |", end=" ")
+    for i in range(1, size + 1):
+        print(f"{row * i:4}", end=" ")
     print()
 

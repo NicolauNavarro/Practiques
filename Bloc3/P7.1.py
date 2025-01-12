@@ -1,9 +1,14 @@
+"""
+Nicolau Navarro Arroyo
+Bloc 3, Pràctica 7.1
+Dibuixos d'asteriscs
+"""
 
 
-
-heihgt = int(input("Altura: "))
+height = int(input("Altura: "))
 width = int(input("Amplada: "))
+print()
 
-for i in range(1, heihgt + 1):
+for i in range(1, height + 1):
     print("*"*width)
 

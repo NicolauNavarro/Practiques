@@ -1,7 +1,12 @@
+"""
+Nicolau Navarro Arroyo
+Bloc 3, Pràctica 7.2
+Dibuixos d'asteriscs
+"""
 
+height = int(input("Altura: "))
+print()
 
-heihgt = int(input("Altura: "))
-
-for i in range(1, heihgt + 1):
+for i in range(1, height + 1):
     print("*"*i)
 
