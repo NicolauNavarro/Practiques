@@ -1,5 +1,8 @@
-
-
+"""
+Nicolau Navarro Arroyo
+Bloc 3, Pràctica 6
+Temps de viatge
+"""
 
 total = 0
 while True:
@@ -13,6 +16,5 @@ while total >= 60:
     total = total - 60
     horas = horas + 1
 
-print("El temps total del viatge es de: " + str(horas)  + ":" + str(total) + " Horas")
-
+print("El temps total del viatge es de: " + str(horas)  + ":" + str(total) + " hores.")
 

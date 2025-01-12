@@ -1,7 +1,7 @@
 """
 Nicolau Navarro Arroyo
 Bloc 3, Pràctica 5
-Divisores
+Divisors
 """
 
 number = int(input("Ingresa el numero: "))
